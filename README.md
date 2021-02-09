@@ -3,5 +3,5 @@
 
 ![Alt text](/Vera-Mock-SC-SM.png?raw=true)
 
-
+### Full Size Image
 https://github.com/rubyszk/vera/blob/master/Vera-Mock.png
