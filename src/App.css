@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+/* 
+@font-face {
+  font-family: 'GT Sectra';
+  src: url('fonts/GT-Sectra-Book.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'GT Sectra Italic';
+  src: url('fonts/GT-Sectra-Medium-Italic.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'GT Walsheim Regular';
+  src: url('./fonts/GT-Walsheim-Regular.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.body {
+  background-color: #DAD9D4;
+  padding: 5em 1em 1em 1em;
+  margin: 5em 5em 1em 5em;
+}
+
+.header {
+  margin: 0em .7em ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  font-family: 'GT Sectra';
+  color: #F04136;
+  font-size: 24px;
+}
+
+.header-oblique {
+  font-family: 'GT Sectra Italic';
+  font-weight: bold;
+}
+
+img {
+  margin-top: 2.8em;
+}
+
+.info {
+  display: flex;
+  font-family: 'GT Walsheim Regular';
+  height: 50em;
+  width: 35em;
+  background-image: url('./images/background.jpg');
+  background-size: cover;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.info-text {
+  font-size: 28px;
+  text-align: center;
+  margin: 12em .5em 0em .5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.underline {
+  text-decoration: underline;
+}
+
+.content {
+  justify-content: center;
+  display: flex;
+}
+.form {
+  height: 50em;
+  width: 35em;
+  background-color: #4C4F55;
+}
+
+.action {
+  font-family: 'GT Walsheim Regular';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 1em .5em 0 .5em;
+} */
+
+
+@font-face {
+  font-family: 'GT Sectra';
+  src: url('fonts/GT-Sectra-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'GT Sectra Book';
+  src: url('fonts/GT-Sectra-Book.ttf');
+}
+
+@font-face {
+  font-family: 'GT Sectra Italic';
+  src: url('fonts/GT-Sectra-Medium-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'GT Walsheim Regular';
+  src: url('./fonts/GT-Walsheim-Regular.ttf');
+}
+
+
+.body {
+  background-color: #4C4F55;
+  margin: 1em 5em 1em 5em;
+}
+
+.header-container {
+  height: 25em;
+  /* width: 75em; */
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+}
+
+.header {
+  justify-content: space-between;
+  font-family: 'GT Sectra';
+  color: white;
+  font-size: 24px;
+}
+
+h1 {
+  padding: 2em 0em 1em 1em;
+}
+
+.header-oblique {
+  font-family: 'GT Sectra Italic';
+  font-weight: bold;
+}
+
+.header-logo {
+  margin-top: 5em;
+  margin-left: 5em;
+}
+
+p {
+  font-family: 'GT Walsheim Regular';
+}
+
+.header-text {
+  font-size: 24px;
+  margin: -2em 2em;  
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.content {
+  background-color: #BCBDBC;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 0em 0em 10em 0em; */
+}
+
+.italic {
+  font-family: 'GT Walsheim Regular';
+  color: #F04136;
+  /* margin-top: 2em; */
+}
+
+.form-page {
+  display: flex;
+}
+
+.form-header {
+  background-color: #BCBDBC;
+  padding: 0em 1em;
+  font-family: 'GT Sectra';
+  font-size: 64px;
+  color:white;
+  /* text-align: center; */
+}
+
+.form {
+  text-align: center;
+  background-color: #4D4E56;
+  height: 45em;
+  padding-top: 1.5em;
+  font-size: 24px;
+  width: 30em;
+}
+
+.footer-logo {
+  height: 70px;
+  margin-top: 2.5em;
+}
+
+.form-input {
+  text-align: left;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+label {
+  font-family: 'GT Walsheim Regular';
+  font-size: 14px;
+  color: white;
+}
+
+.input {
+  font-size: 16px;
+  padding: 0 1em;
+  height: 4em;
+  width: 35em;
+  margin-bottom: .5em;
+}
+
+.checkbox {
+  margin-top: 1em;
+}
+
+button {
+  margin-top: 1em;
+  height: 4em;
+  width: 37em;
+  color: white;
+  border: none;
+  font-size: 16px;
+  background-color:  #F04136;
+
 }
